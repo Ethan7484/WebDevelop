@@ -5,3 +5,23 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+h2
+{
+  color: red;
+}
+
+p
+{
+  color: red;
+}
+
+.note
+{
+  font-size: 20px;
+}
+
+html{
+  text-align: center;
+}
+
