@@ -6,22 +6,28 @@ ol {
 
 /* Write your CSS below, don't change the rules above. */
 
-h2
-{
+/* TODO 1 */
+p {
   color: red;
 }
 
-p
-{
-  color: red;
-}
-
-.note
-{
+/* TODO 2 */
+.note {
   font-size: 20px;
 }
 
-html{
+/* TODO 3 */
+#id-selector-demo {
+  color: green;
+}
+
+/* TODO 4 */
+li[value="4"] {
+  color: blue;
+}
+
+/* TODO5 */
+* {
   text-align: center;
 }
 
