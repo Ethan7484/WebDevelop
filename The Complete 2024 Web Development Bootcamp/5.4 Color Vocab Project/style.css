@@ -1,0 +1,38 @@
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}
+
+
+.color-title {
+    font-weight: normal
+}
+
+img[src] {
+    height: 200px;
+    width: 200px;
+}
+
+/*
+강의 답안
+img {
+    height: 200px;
+    width: 200px;
+}
+*/
