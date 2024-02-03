@@ -1,0 +1,36 @@
+/* Write your code here: */
+
+/* Group = Apply to both selectors */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child = Apply to direct child of left side */
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant = Aplly to a descendent of left side */
+/* Available with different selector types */
+.box li { 
+    color: blue;
+}
+
+/* chaining = Apply where ALL selectors are true */
+li.done {
+    color: seagreen;
+}
+
+/* Combining Combiners =  */
+ul p.done {
+    font-size: 0.5rem;
+}
+
+
+
+/*
+div > p { color: ultramarine; }
+ul > li { color: red; }
+ul > p { color: coral; }
+body > p { color:aquamarine; }
+*/
