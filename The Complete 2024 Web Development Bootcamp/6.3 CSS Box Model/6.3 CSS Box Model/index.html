@@ -13,7 +13,7 @@
     }
 
     /* 3. Set different background colors for each of the boxes (I used cadetblue, gold and indianred). */
-    #aa {
+    #first {
       background-color: cadetblue;
       /* 5. Set the 1st div to have 20px padding all around with a black 10px border. */
       padding: 20px;
@@ -22,20 +22,17 @@
     }
 
     /* 7. Set the 2nd div to have a 20px border on top and bottom and 10px border left and right. (See goal image) */
-    #bb {
+    #second {
       background-color: gold;
       border: 10px solid black;
-      border-top-width: 20px;
-      border-bottom-width: 20px;
-      border-left-width: 10px;
-      border-right-width: 10px;
+      border-width: 20px 10px;
       /* 9. Set the margins for the divs so that each box corner touches the other. (See the goal image) */
       margin-left: 260px;
 
     }
 
     /* 8. Set the 3rd div to have a 10px border  */
-    #cc {
+    #third {
       border: 10px solid black;
       background-color: indianred;
       /* 9. Set the margins for the divs so that each box corner touches the other. (See the goal image) */
@@ -70,14 +67,16 @@ Hint: Use the CSS inspector in Chrome.
 -->
 
 <!-- 1. Create 3 Boxes using the div element. -->
-<div id="aa">
+<div id="first">
   <!-- 4. Add a paragraph <p> element into the first div and add the following words  -->
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
     id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
     dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
 </div>
-<div id="bb">aaaaaa</div>
-<div id="cc"></div>
+<div id="second">
+  <p>Hello World</p>
+</div>
+<div id="third"></div>
 
 </body>
 
