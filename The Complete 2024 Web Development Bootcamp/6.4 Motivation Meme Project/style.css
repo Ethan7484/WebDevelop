@@ -1,0 +1,32 @@
+html {
+    /* 2. The text should be white and background black. */
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    /* 6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS. */
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+img {
+    /* 3. Add your own image into the images folder inside assets. It should have a 5px white border. */
+    border: 5px solid white;
+    width: 100%;
+}
+
+#text {
+    /* 4. The text should be center aligned. */
+    text-align: center;
+}
+
+div {
+    /* 5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. */
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    /* 1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts: */
+    font-family: 'Libre Baskerville', serif;
+
+}
