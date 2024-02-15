@@ -5,43 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Direction</title>
-    <!-- HINT:
-    https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
-    https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators 
-    -->
     <style>
-    .container {
-        color: white;
-        border: 5px solid gold;
-        display:flex
-        
 
-    }
-
-    .container > * {
-        flex: 1 1 100px;
-    }
-
-    .red {background-color: #f60e0aed;}
-    .orange {background-color: #f0932b;}
-    .yellow {background-color: #fde052;}
-    .green {background-color: #6ab04c;}
-    .blue {background-color: #4834d4;}
-    .indigo {background-color: #30336b;}
-    .purple {background-color: #be2edd;}
+        .grid-item {
+            background-color: violet;
+            border: 10px solid rgb(252, 185, 41);
+            margin: 0;
+            
+        }
+        .grid-container {
+            display: grid;
+            grid-template-rows: 1fr 1fr 2fr;
+            grid-template-columns: auto 400px minmax(200px, 500px);
+            grid-auto-rows: 50px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="red">Red</div>
-        <div class="orange">Orange</div>
-        <div class="yellow">Yellow</div>
-        <div class="green">Green</div>
-        <div class="blue">Blue</div>
-        <div class="indigo">Indigo</div>
-        <div class="purple">Purple</div>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
     </div>
 </body>
-
 </html>
