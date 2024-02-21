@@ -23,15 +23,54 @@
       display: grid;
       width: 748px;
       height: 748px;
+      gap: 9px;
       background-color: #F0F1EC;
+      grid-template-columns: 1fr 1fr 153px 50px;
+      grid-template-rows: 1fr 1fr 20px;
+      row-gap: 9px black;
     }
+
+    .item_1 {
+      background-color: #E72F24;
+      width: 320px;
+      height: 414px;
+    }
+
+    .item_2 {
+      background-color: #004592;
+      width: 50px;
+      height: 130px;
+      grid-column-start: 4;
+      grid-row-start: -3;
+      border-bottom: 20px solid black;
+    }
+
+    .item_3 {
+      background-color: #F9D01E;
+      width: 198px;
+      height: 20px;
+      grid-column: -4;
+      grid-row: 3;
+    }
+
+    .item_4 {
+      background-color: #232629;
+      width: 153px;
+      height: 20px;
+      grid-column: -3;
+      grid-row: 3;
+    }
+
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
   <div class="Container">
-
+    <div class="item_1">🤠</div>
+    <div class="item_2">👨‍🚀</div>
+    <div class="item_3">📖</div>
+    <div class="item_4">🎏</div>
   </div>
 </body>
 
