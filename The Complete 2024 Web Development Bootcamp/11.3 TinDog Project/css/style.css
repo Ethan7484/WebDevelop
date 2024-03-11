@@ -1,3 +1,8 @@
+/* body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+} */
+
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
